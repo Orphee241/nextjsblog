@@ -24,3 +24,17 @@ a {
     background: black;
   }
 }
+
+.card{
+  width: 100%;
+  
+}
+.col{
+  margin: 0 1em;
+}
+@media screen and (max-width: 768px) {
+  .card{
+    width: 100%;
+  }
+  
+}
