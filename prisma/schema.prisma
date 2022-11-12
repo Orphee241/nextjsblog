@@ -12,6 +12,5 @@ model articles {
   titre    String   @db.VarChar(100)
   corps    String   @db.Text
   autheur  String   @db.VarChar(255)
-  ajoutele DateTime @db.DateTime(0)
-
+  ajoutele DateTime @default(now()) @db.Timestamp(0)
 }
